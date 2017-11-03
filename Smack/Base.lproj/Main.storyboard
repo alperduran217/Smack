@@ -167,7 +167,7 @@
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KRr-Xr-dgH">
                                         <rect key="frame" x="0.0" y="0.0" width="250" height="20"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="250" id="Qhp-OY-eP0"/>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="250" id="Qhp-OY-eP0"/>
                                         </constraints>
                                         <color key="textColor" red="0.35686274509999999" green="0.62352941179999999" blue="0.79607843140000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
@@ -184,7 +184,7 @@
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="O91-SO-iMF">
                                         <rect key="frame" x="0.0" y="50" width="250" height="20"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="250" id="Mty-fW-Cec"/>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="250" id="Mty-fW-Cec"/>
                                         </constraints>
                                         <color key="textColor" red="0.35686274509999999" green="0.62352941179999999" blue="0.79607843140000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
@@ -204,7 +204,7 @@
                                 <rect key="frame" x="47.5" y="336" width="280" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="MSe-Wp-DCK"/>
-                                    <constraint firstAttribute="width" constant="280" id="pY8-9T-k56"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="280" id="pY8-9T-k56"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
                                 <state key="normal" title="Don't have an acconunt? Sign up here!">
@@ -219,7 +219,7 @@
                                 <color key="backgroundColor" red="0.35686274509999999" green="0.62352941179999999" blue="0.79607843140000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="rDb-pg-msT"/>
-                                    <constraint firstAttribute="width" constant="250" id="yjT-VQ-bYI"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="250" id="yjT-VQ-bYI"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
                                 <state key="normal" title="Login">
